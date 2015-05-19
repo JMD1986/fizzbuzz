@@ -1,8 +1,4 @@
 class Fizzbuzz
-  def initialize
-    @max = max
-  end
-  attr_accessor :max
   def self.run(num)
   1.upto(num).each do |x|
     if x % 3 == 0 && x % 5 == 0
